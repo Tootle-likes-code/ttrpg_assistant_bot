@@ -6,7 +6,7 @@ from unittest.mock import patch
 
 from requests import HTTPError
 
-import bank_holiday_api
+from ttrpg_assistant_bot.bank_holidays import bank_holiday_api
 
 TEST_FILE_LOCATION = Path("test_files/extract_example.json")
 
