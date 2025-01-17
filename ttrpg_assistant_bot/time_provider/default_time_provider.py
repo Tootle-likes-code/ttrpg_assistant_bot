@@ -13,5 +13,5 @@ class DefaultTimeProvider(TimeProvider):
 
         return cls.instance
 
-    def get_time(self) -> datetime:
+    def get_datetime(self) -> datetime:
         return datetime.now()

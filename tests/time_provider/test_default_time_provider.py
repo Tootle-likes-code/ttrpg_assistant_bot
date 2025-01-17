@@ -47,7 +47,7 @@ class GetTimeTests(DefaultTimeProviderTests):
         expected_result = datetime.now()
 
         # Act
-        result = DefaultTimeProvider.get_instance().get_time()
+        result = DefaultTimeProvider.get_instance().get_datetime()
 
         # Assert
         self.assertDatesEqual(expected_result, result)
